@@ -1,7 +1,23 @@
-documentation/
-├── README.md
-├── network_setup.md
-├── server_configuration.md
-└── user_guides/
-    ├── email_setup.md
-    └── troubleshooting.md
+# Tech Solutions Documentation
+
+Добро пожаловать в документацию компании Tech Solutions. Здесь вы найдете инструкции по настройке сети, конфигурации серверов и руководства пользователя.
+**Пример файла network_setup.md**:
+
+# Настройка сети
+
+## Оборудование
+
+- Маршрутизаторы: Cisco 2900
+- Коммутаторы: Cisco Catalyst 2960
+
+## Шаги по настройке
+
+1. Подключите все устройства к электросети.
+2. Соедините маршрутизатор с коммутатором с помощью Ethernet-кабеля.
+3. Настройте базовые параметры маршрутизатора:
+   
+bash
+   enable
+   configure terminal
+   hostname Router1
+
